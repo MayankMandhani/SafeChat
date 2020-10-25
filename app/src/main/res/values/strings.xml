@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SafeChat</string>
+    <string name="type_your_message_here">Type your message here…</string>
+    <string name="send">Send</string>
+    <string name="phone_hint"><font size="15">Enter Phone Number </font><font size="10">(with Country code)</font></string>
+    <string name="name_hint"><font size="15">Enter Your Name</font></string>
+    <string name="code_hint"><font size="15">Enter Verification Code</font></string>
+</resources>

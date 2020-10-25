@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4FDE6"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/name"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/safechat_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/name"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+
+        android:paddingBottom="38dp"
+        android:text="SAFECHAT"
+        android:textColor="#050505"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phoneNumber"
+        android:background="@drawable/textborder"
+        android:layout_alignLeft="@id/phoneNumber"
+        android:layout_alignRight="@id/phoneNumber"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/name_hint"/>
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textborder"
+        android:gravity="center"
+        android:hint="@string/phone_hint" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumber"
+        android:background="@drawable/textborder"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_alignLeft="@id/phoneNumber"
+        android:layout_alignRight="@id/phoneNumber"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/code_hint" />
+
+    <Button
+        android:minHeight="0dp"
+        android:padding="5dp"
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custombutton"
+        android:textSize="19sp"
+        android:text="Send code" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="If code not received within 2 minutes,\ncheck phone no. or try again later."
+        android:textAlignment="center"
+        android:textSize="12sp" />
+</RelativeLayout>
