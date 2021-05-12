@@ -39,4 +39,4 @@ width="150" height="300">](https://firebasestorage.googleapis.com/v0/b/safechat-
 All the messages between all users are end to end encrypted using the AES method with the help of javax.crypto library. This is what the messages look like in the database:
 
 [<img src="https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/aesfirebase.png?alt=media&token=46cc03a2-a034-4f03-9aa0-4f7cd7fafd1a" 
-width="150" height="300">](https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/aesfirebase.png?alt=media&token=46cc03a2-a034-4f03-9aa0-4f7cd7fafd1a)
+width="400" height="200">](https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/aesfirebase.png?alt=media&token=46cc03a2-a034-4f03-9aa0-4f7cd7fafd1a)
