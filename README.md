@@ -1,5 +1,5 @@
 # SafeChat
-An Android text messaging app with End to End Advanced Encryption Standard method and Phone Number Authentication. Built using Java and Firebase.
+An Android text messaging app with End to End Advanced Encryption Standard method and Phone Number Authentication. Built using Java and Firebase.<br>
 <a href="https://drive.google.com/file/d/1CrTHF9yVNqhTmqaRxyZz0Yo9xlOV9Rq8/view?usp=sharing">APK Link</a>
 
 **Technologies and Libraries used:**<br>
@@ -38,5 +38,5 @@ width="150" height="300">](https://firebasestorage.googleapis.com/v0/b/safechat-
 
 All the messages between all users are end to end encrypted using the AES method with the help of javax.crypto library. This is what the messages look like in the database:
 
-[<img src="https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/Screenshot_20210506-220700.png?alt=media&token=772d93e3-7a02-4edf-b2e2-e392fcddae07" 
-width="150" height="300">](https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/Screenshot_20210506-220700.png?alt=media&token=772d93e3-7a02-4edf-b2e2-e392fcddae07)
+[<img src="https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/aesfirebase.png?alt=media&token=46cc03a2-a034-4f03-9aa0-4f7cd7fafd1a" 
+width="150" height="300">](https://firebasestorage.googleapis.com/v0/b/safechat-3e2e3.appspot.com/o/aesfirebase.png?alt=media&token=46cc03a2-a034-4f03-9aa0-4f7cd7fafd1a)
