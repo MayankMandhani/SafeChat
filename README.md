@@ -3,6 +3,7 @@ An Android text messaging app with End to End Advanced Encryption Standard metho
 <a href="https://drive.google.com/file/d/1CrTHF9yVNqhTmqaRxyZz0Yo9xlOV9Rq8/view?usp=sharing">APK Link</a>
 
 **Technologies and Libraries used:**<br>
+- Android Studio
 - Java
 - XML
 - Firebase Authentication
