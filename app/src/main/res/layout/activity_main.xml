@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="220dp"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_above="@id/name"
         android:layout_centerHorizontal="true"
@@ -24,7 +24,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif"
 
-        android:paddingBottom="38dp"
+        android:paddingBottom="40dp"
         android:text="SAFECHAT"
         android:textColor="#050505"
         android:textIsSelectable="false"
@@ -40,7 +40,7 @@
         android:layout_alignLeft="@id/phoneNumber"
         android:layout_alignRight="@id/phoneNumber"
         android:gravity="center"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:hint="@string/name_hint"/>
@@ -79,7 +79,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/custombutton"
-        android:textSize="19sp"
+        android:textSize="20sp"
         android:text="Send code" />
 
     <TextView
