@@ -8,7 +8,7 @@ An Android text messaging app with End to End Advanced Encryption Standard metho
 - XML
 - Firebase Authentication
 - Firebase Realtime Database
-- javax.crypto
+- javax.crypto library
 
 **Phone number authentication using FirebaseAuth:** 
 
